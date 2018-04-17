@@ -84,13 +84,10 @@ GS-JDBC just like standard Hive/Impala JDBC API, we need to set ***Driver Class*
 - GS-JDBC use the same ***Subprotocol*** to connect Hive and Impala service, you can see the following standard JDBC Connection URL. 
 - And you can use GS-JDBC all features through set the right property in the Connection URL.
 - About Connection URL Properties, you can see : [Connection URL property list](#34-connection-url-property-list)
-
-- ```
-jdbc:Subprotocol://Host:Port[/Schema];Property1=Value;Property2=Value;...
-```
+- ```jdbc:Subprotocol://Host:Port[/Schema];Property1=Value;Property2=Value;...```
 
 ### 3.2.3 Java Sample Code
-- 
+ 
     ```java
         import java.sql.*
 
