@@ -22,7 +22,7 @@ You can use GS-JDBC by these ways:
 
 - Optional Service
 
-   - IML-Predictor (More information about IML-Predictor, please see URL)
+   - IML-predictor (More information about IML-predictor, please see [IML-predictor](https://github.com/gridsum/IML-predictor))
 
 - Conf File
 
@@ -34,7 +34,7 @@ You can use GS-JDBC by these ways:
     ```
     # IML-Predictor service API URL for Memory Predict feature
     
-    impala.predict.url=http://10.202.42.2:8889/v1/impala/memory/predict
+    impala.predict.url=http://192.168.1.1:8080/v1/impala/memory/predict
     
     # following properties usually do not be change 
     
@@ -154,7 +154,7 @@ GS-JDBC just like standard Hive/Impala JDBC API, we need to set ***Driver Class*
 
 - Memory Predict
 
-  - It is a feature need ***IML-Predictor***, if you want to use this feature, you must install ***IML-Predictor***.(More information about IML-Predictor, please see URL)
+  - It is a feature need ***IML-Predictor***, if you want to use this feature, you must install ***IML-predictor***.(More information about IML-predictor, please see [IML-predictor](https://github.com/gridsum/IML-predictor))
 
   - Before you execute a query statement, GS-JDBC call ***IML-Predictor*** service first, and ***IML-Predictor*** will return appropriate ***mem_limit*** to insure the query statement can be finish and use least memory.
 
