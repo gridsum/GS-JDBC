@@ -87,8 +87,7 @@ GS-JDBC just like standard Hive/Impala JDBC API, we need to set ***Driver Class*
 - ```jdbc:Subprotocol://Host:Port[/Schema];Property1=Value;Property2=Value;...```
 
 ### 3.2.3 Java Sample Code
- 
-    ```java
+ -   ```java
         import java.sql.*
 
         //Hive 
