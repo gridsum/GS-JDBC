@@ -126,7 +126,7 @@ GS-JDBC just like standard Hive/Impala JDBC API, we need to set ***Driver Class*
         rs.close();
         stmt.close();
 
-    ```
+      ```
 
 
 ## 3.3 GS-JDBC Features
